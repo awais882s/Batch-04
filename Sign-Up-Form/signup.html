@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>J.K.M.B Mallick High School</h1>
+
+    <h1  title="Admission form"> Admission Form</h1><hr>
+    <h1 title="Personal Information">Personal Information</h1><br>
+    <fieldset>
+        <legend title="Personal Information">Personal Information</legend>
+    <form>
+    <label for="name" title="Name">Name:&emsp; &emsp;&emsp;&emsp;&emsp;</label>
+    <input type="text" placeholder="Full Name" title="Please Enter Your Name" id="name" required/><br><br>
+    <label for ="fathername" title="Father Name">FATHER NAME: &nbsp;&nbsp;</label>
+    <input type="text" placeholder="Father's Name" title="Please Enter Your Father Name" id="fathername"><br><br>
+    <label for="cnic"title="CNIC">CNIC: &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;</label>
+    <input type="text" required placeholder="Enter Cnic x-xxxxxxxx-x" title="Please Enter Your Cnic No." id="cnic"><br><br>
+    <label for="color" title="Favourite Colour">FAVOURITE COLOUR:</label>
+    <input type="color" id="color" title="Pick Any Colour"><br><br>
+    <label for="dob" title="D.O.B">D-O-B:&emsp; &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="date" id="dob" title="Please Enter Your D.O.B"><br><br>
+    <label for="email" title="Email">EMAIL:&emsp; &emsp;&emsp;&emsp;&nbsp;</label>
+    <input type="email" id="email" title="Please Enter Your Email" required placeholder="Enter Your Email"><br><br>
+</fieldset>
+<h1 title="Residential Information">Residential Information</h1>
+<fieldset>
+    <legend  title="Residential Information">Residential Information</legend>
+    <label for="cityname" title="City Name">CITY NAME:&emsp; &emsp;&emsp;</label>
+    <input type="text" title="Please Enter Your City Name" required id="cityname" placeholder="Enter Your City Name"><br><br>
+    <label for="province" title="Province" for="province">PROVINCE: &emsp; &emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
+    <select required id="province">
+        <option id="province" title="Select Option">Select Options</option>
+        <option title="Punjab">Punjab</option>
+        <option title="Sindh" selected>Sindh</option>
+        <option title="Khyber">Khyber</option>
+        <option title="Blochistan">Blochistan</option>
+    </select><br><br>
+    <label  title="Country" for="country">COUNTRY:&emsp; &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <select id="country" required>
+        <option title="USA">USA</option>
+        <option title="Pakistan">Pakistan</option>
+        <option title="China">China</option>
+        <option title="South Korea">South Korea</option>
+    </select><br><br>
+    <div>
+        <label title="Gender" requird >GENDER:</label><br><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male" title="Male" name="gender">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female" title="Female" name="gender">Female</label>
+        <input type="radio" id="others" name="gender">
+        <label for="others" title="Others" name="gender">Others</label>
+        
+    </div>
+</fieldset>
+<div>
+    <h1 title="Academic Information">Academic Information</h1>
+</div>
+<div>
+    <fieldset>
+        <legend title="Academic Information">Academic Information</legend>
+        <label title="Qualifications" required >QUALIFICATIONS:<br><br></label>
+        <input type="checkbox" title="Matric Completed" id="matric" name="qualification">
+        <label for="matric" title="Matric Completed" name="qualification">Matric Completed</label><br><br>
+        <input type="checkbox" id="inter" name="qualification">
+        <label title="Inter Completed" for="inter" name="qualification">Inter Completed</label><br><br>
+
+
+        <label title="Class" for="class">CLASS:&emsp; &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <select id="class" required>
+            <option title="Select options">Select Option</option>
+            <option title="Grade 9th" >Grade 9th</option>
+            <option title="Grade 10th" selected>Grade 10th</option>
+            <option title="Grade 11th">Grade 11th</option>
+            <option title="Grade 12th">Grade 12th</option>
+        </select><br><br>
+        <label for="schoolname">NAME OF OLD SCHOOL:&emsp; &emsp;</label>
+        <input type="text" id="schoolname" placeholder="Name of your school" title="Name Of Old School"><br><br><br>
+        <button title="Submit Data">Submit Data</button><br><br>
+        <input type="button" title="Reset" value="Reset">
+
+    </fieldset>
+</div>
+    </form>
+</body>
+</html> 
